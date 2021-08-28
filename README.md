@@ -1,2 +1,2 @@
 # Task_Manager
-Gerenciador de tarefas desenvolvido através de uma API em PHP nativo.
+🚧 Projet in construction. Wait for more!
