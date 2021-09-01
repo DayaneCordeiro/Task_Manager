@@ -37,18 +37,22 @@ class RouteCollection {
     }
 
     protected function addPost($pattern, $callback) {
-        // to do
+        $this->routes_post[$this->definePattern($pattern)] = $callback;
+        return $this;
     }
 
     protected function addGet($pattern, $callback) {
-        // to do
+        $this->routes_get[$this->definePattern($pattern)] = $callback;
+        return $this;
     }
 
     protected function addPut($pattern, $callback) {
-        // to do
+        $this->routes_post[$this->definePattern($pattern)] = $callback;
+        return $this;
     }
 
     protected function addDelete($pattern, $callback) {
-        // to do
+        $this->routes_post[$this->definePattern($pattern)] = $callback;
+        return $this;
     }
 }
